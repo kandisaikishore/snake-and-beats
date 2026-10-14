@@ -1,45 +1,47 @@
 # Snake and Beats
 
-## Live Demo / Deployment URL
+[![Source](https://img.shields.io/badge/Source-GitHub-181717?logo=github)](https://github.com/kandisaikishore/snake-and-beats) [![Last Commit](https://img.shields.io/github/last-commit/kandisaikishore/snake-and-beats)](https://github.com/kandisaikishore/snake-and-beats/commits/main)
 
-**Deployment URL:** Not verified yet. Add the confirmed public application URL here after checking the live service. The repository's GitHub URL is the source code, not a deployed application.
+Snake and Beats is a game project built around a Snake-inspired concept with a music-themed presentation. It is a useful playground for interactive input, gameplay state, collision rules, and visual/audio feedback where those features are implemented.
 
+## Gameplay concepts
 
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?logo=github)](https://github.com/saikishore2410/snake-and-beats) [![Issues](https://img.shields.io/github/issues/saikishore2410/snake-and-beats)](https://github.com/saikishore2410/snake-and-beats/issues) [![Last Commit](https://img.shields.io/github/last-commit/saikishore2410/snake-and-beats)](https://github.com/saikishore2410/snake-and-beats/commits/main)
+- Navigate through a game space using the supported controls
+- Track game state and score
+- Handle collisions and game-over conditions
+- Explore a music-inspired presentation
 
-> An interactive game project with a Snake-inspired concept and a music-themed presentation. Confirm exact gameplay and audio behaviour against the source.
-
-## At a glance
-
-- **Purpose:** Use the feature and scope sections below to understand the problem this project addresses.
-- **Getting started:** Follow the repository-specific setup instructions and verify commands against the current source and package scripts.
-- **Configuration:** Keep API keys, database credentials, tokens, and private user data out of commits; configure secrets locally.
-- **Quality checks:** Run the available build, test, and lint commands before submitting changes.
-
-
-
-An interactive game project with a Snake-inspired concept and a music-themed presentation. Confirm exact gameplay and audio behaviour against the source.
-
-## Overview
-
-This project can be used to explore keyboard input, game-state updates, collision handling, scoring, and audio/visual feedback where implemented.
+Check the source files for the current gameplay loop, key bindings, and audio support; those details may vary with the implementation.
 
 ## Getting started
 
 ```bash
-git clone https://github.com/saikishore2410/snake-and-beats.git
+git clone https://github.com/kandisaikishore/snake-and-beats.git
 cd snake-and-beats
 ```
 
-Follow the run instructions for the framework used by this repository. For a static web app, open its main HTML page in a modern browser; for an npm-based project, use the scripts defined in `package.json`.
+Follow the runtime instructions for the technology used by the project. For a static web version, open its main HTML file in a modern browser; for an npm project, use the scripts configured in `package.json`.
 
-## Ideas to improve
+## Testing checklist
 
-- Add clear start, pause, and game-over states
-- Test collision and scoring edge cases
-- Support responsive screens and accessible controls
-- Document audio assets and keyboard shortcuts
+- Verify controls are responsive and consistent
+- Test wall and self-collision behaviour
+- Check score updates and restart flow
+- Test pause/resume and game-over states where supported
+- Confirm audio and assets load without console errors
+- Check that the layout works at smaller viewport sizes
+
+## Potential improvements
+
+- Add clear instructions and accessibility options
+- Separate game state from rendering logic
+- Add automated checks for collision and scoring rules
+- Document controls, assets, and known limitations
+
+## Contributing
+
+Open an issue with steps to reproduce a problem or submit a focused pull request with validation notes.
 
 ## License
 
-No license is specified. Add a `LICENSE` file before granting reuse rights.
+No license file is currently declared. Add a `LICENSE` file to define reuse terms.
